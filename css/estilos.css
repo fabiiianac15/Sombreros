@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 16px;
   background-color: #333;
   color: #fff;
 }
@@ -15,7 +15,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 1rem;
+  margin-right: 16px;
 }
 
 nav a {
@@ -24,7 +24,7 @@ nav a {
 }
 
 .logo img {
-  height: 4rem;
+  height: 64px;
 }
 
 .carrito img {
