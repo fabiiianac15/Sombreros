@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.carrito img {
+  height: 32px;
+}
+
+.buscar input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+
+.buscar button {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.icono {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.icono img {
+  max-width: 50%;
+  margin-right: 32px;
+}
+
+.icono h2 {
+  margin-top: 0;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.redes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  margin-top: 32px;
+}
+
+.item {
+  display: flex;
+}
+
+.item img {
+  max-width: 50%;
+  margin-right: 32px;
+}
+
+.item-info h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
